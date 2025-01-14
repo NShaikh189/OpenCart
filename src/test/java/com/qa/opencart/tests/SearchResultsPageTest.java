@@ -62,6 +62,7 @@ public class SearchResultsPageTest extends BaseTest {
 
 		assertion.assertTrue(searchResultsPage.doAddToCart(productName), productName + ": NOT FOUND");
 		assertion.assertAll();
+		System.out.println("Items added to the cart");
 
 	}
 
